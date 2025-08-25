@@ -28,6 +28,8 @@
             <p><button id="ebony">Ebony</button></p>
 
           <p><button id="apple">Apple</button></p>
+          <p><button id="maple">Maple</button></p>
+          <p><button id="willow">Willow</button></p>
         </div>
         <div class="content">
             <iframe id="i_content" src="oak_content.html"
@@ -81,6 +83,11 @@
 
         })
 
+        $("#willow").click(function(){
+            $("#i_content").attr("src","willow_content.html");
+            $("#i_summary").attr("src","willow_summary.html");
+
+        })
 
     </script>
 </body>
