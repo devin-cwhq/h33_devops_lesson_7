@@ -22,11 +22,16 @@
 
         <div class="index">
             <h3>Index</h3>
-            <p><button id="oak">Oak + 1</button></p>
+            <p><button id="oak">Oak</button></p>
             <p><button id="beech">Beech</button></p>
+
             <p><button id="apple">Apple</button></p>
             <p><button id="coconut">Coconut</button></p>
 
+
+            <p><button id="ebony">Ebony</button></p>
+
+          <p><button id="apple">Apple</button></p>
         </div>
         <div class="content">
             <iframe id="i_content" src="oak_content.html"
@@ -56,17 +61,34 @@
             $("#i_summary").attr("src","beech_summary.html");
 
         })
+
+
+        $("#ebony").click(function(){
+            $("#i_content").attr("src","ebony_content.html");
+            $("#i_summary").attr("src","ebony_summary.html");
+        })
+        $("#ebony").click(function(){
+
+
+        })
+
+
         $("#apple").click(function(){
             $("#i_content").attr("src","apple_content.html");
             $("#i_summary").attr("src","apple_summary.html");
+
+  
+        $("#maple").click(function(){
+            $("#i_content").attr("src","maple_content.html");
+            $("#i_summary").attr("src","maple_summary.html");
+
         })
+
         $("#coconut").click(function(){
             $("#i_content").attr("src","coconut_content.html");
             $("#i_summary").attr("src","coconut_summary.html");
         })
-        /* This will not be merged !  */
-        /*Alexander's Branch. */
-        /*Lesson 7*/
+
 
     </script>
 </body>
